@@ -2,4 +2,10 @@
 <resources>
 
     <style name="Theme.SapWork" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="CustomTimePickerDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">@android:color/transparent</item> <!-- Set to transparent -->
+        <item name="colorAccent">@color/custom_color_accent</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <!-- Add other styling as needed -->
+    </style>
 </resources>
